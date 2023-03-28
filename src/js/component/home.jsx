@@ -33,7 +33,7 @@ const Home = () => {
 					return (
 							<h4 className="line-task d-flex justify-content-between" key={`${line.object}-${index}`}>
 								{line.object}
-								<button className="btn btn-danger d-flex justify-content-end me-3" onClick={(index) => hadledRemove(index)}><i className="fas fa-times align-self-center "></i></button>
+								<button className="btn btn-danger d-flex justify-content-end me-3" onClick={(g) => hadledRemove(index)}><i className="fas fa-times align-self-center "></i></button>
 							</h4>
 					);
 				})}
